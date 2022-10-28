@@ -9,3 +9,6 @@ function divisores(num){
             total++;
         }
     }
+    return total;
+}
+console.log("total divisaores", divisores(33));
