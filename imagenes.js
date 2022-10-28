@@ -3,13 +3,13 @@ function imagen(){
     let img = document.getElementById("imagen");
     switch (option) {
         case 1:
-            img.src="Recursos/tilin.jpg";
+            img.src="EVIDENCIA-3/recursos/tilin.jpg";
             break;
         case 2:
-            img.src="Recursos/tilin2.jpg";
+            img.src="EVIDENCIA-3/recursos/tilin2.jpg";
             break;
         case 3:
-            img.src="Recursos/tilin3.jpeg";
+            img.src="EVIDENCIA-3/recursos/tilin3.jpeg";
             break;
 }
 }
