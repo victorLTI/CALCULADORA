@@ -6,6 +6,12 @@ let cantidad=0;
 
     let suma= 0;
     for(let i=1; i<=num; i++){
+        for(let n=1; n<i;n++){
+            if(i%n==0){
+                suma+=n;
+            }   
+        }
+        suma=0
     }
 }
 }
