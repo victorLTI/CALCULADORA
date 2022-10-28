@@ -10,6 +10,10 @@ let cantidad=0;
             if(i%n==0){
                 suma+=n;
             }   
+                }
+                if(suma==i){
+                    resul.value=(i)
+                    cantidad++;
         }
         suma=0
     }
