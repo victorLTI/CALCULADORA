@@ -12,3 +12,6 @@ function divisores(num){
     return total;
 }
 console.log("total divisaores", divisores(33));
+const cuadraro = function(x){
+    return x*x;
+};
